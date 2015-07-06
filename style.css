@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+form {
+  position: relative;
+
+  width  : 760px;
+  height : 860px;
+  margin : 0 auto;
+
+  background: #FFF url(faceboo-app.png);
+}
+
+
+input, textarea {
+  font    : .9em/1.5em "handwriting", sans-serif;
+
+  border  : none;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 200px;
+
+  background: none;
+}
+
+
+
+
+#from {
+	position: absolute;
+	left : 470px;
+	top  : 210px;
+	width: 150px;
+	transform: rotate(354deg) ;
+}
+
+#phone1 {
+	position: absolute;
+	left : 475px;
+	top  : 284px;
+	width: 150px;
+	transform: rotate(354deg) ;
+}
+
+#button {
+  position: absolute;
+  left : 590px;
+  top  : 325px;
+  transform: rotate(354deg) ;
+  font-size: 24px ;
+  color:#FFF ;
+}
+
+
